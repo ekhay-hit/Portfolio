@@ -1,6 +1,48 @@
+body{
+    font-size: 20px;
+}
+
 nav{
-    background-color: rgb(44, 77, 78);
-    counter-reset: rgb(153, 153, 241);
-    height: 10px;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(73, 27, 9, 0.781);
+    height: 50px;
     width: 100%;
+    margin:auto;
+   
+}
+
+.nav-h1{
+    display: flex;
+    float: left;
+    width: 40%;
+    padding-left: 30px;
+   padding-top: 10px;
+  
+    
+}
+
+.nav-link{
+    display: flex;
+    color: black;
+    justify-content:flex-end;
+    gap:calc(20px);
+    justify-items: center;
+    width: 60%;
+    
+    .link{
+        margin-right: 10px;
+        padding-top:10px;
+    
+     }
+ }  
+
+ 
+
+
+header{
+    background-image: url("./images/header.jpg");
+    height: 140px;
+
+
 }
