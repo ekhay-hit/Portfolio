@@ -1,0 +1,6 @@
+nav{
+    background-color: rgb(44, 77, 78);
+    counter-reset: rgb(153, 153, 241);
+    height: 10px;
+    width: 100%;
+}
