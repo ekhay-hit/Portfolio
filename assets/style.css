@@ -8,7 +8,7 @@ body {
 }
 /* reseting the colors to the initail set color */
 a:link, a:visited{
- 
+ text-decoration: none;
   color:rgb(7, 168, 168);
 }
 
