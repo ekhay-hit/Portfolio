@@ -1,21 +1,24 @@
 body {
   font-size: 20px;
-  color:rgb(19, 85, 88);
+  color: rgb(19, 85, 88);
   font-family: monospace;
- 
+  background-color: rgb(209, 232, 224);
+
   /* background-color: black;
   color: white; */
 }
 /* reseting the colors to the initail set color */
-a:link, a:visited{
- text-decoration: none;
-  color:rgb(7, 168, 168);
+a:link,
+a:visited {
+  text-decoration: none;
+  color: rgb(7, 168, 168);
 }
 
 nav {
   display: flex;
   justify-content: end;
-  background-color: rgba(73, 27, 9, 0.781);
+  /* background-color: rgba(73, 27, 9, 0.781); */
+  background-color: rgba(8, 8, 8, 0.781);
   height: 50px;
   width: 100%;
   margin: auto;
@@ -55,13 +58,40 @@ nav {
 header {
   display: flex;
   justify-content: flex-end;
-  padding-top:0px;
+  padding-top: 0px;
   background-image: url("./images/header.jpg");
-  height: 140px;
-  h2{
+  background-repeat: repeat;
+  background-size: contain;
+  height: 190px;
+  h2 {
     margin-top: auto;
-    background-color:rgb(129, 192, 215);
+    background-color: rgb(129, 192, 215);
+    padding-right: 10px;
+  }
+}
 
+.coming-soon {
+  background-color: rgb(159, 218, 227);
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  padding-top: 40px;
+  transition: all 2s ease;
+  animation: soon 3s infinite linear both;
+}
+
+@keyframes soon {
+  0% {
+    width: 200px;
+    height: 120px;
+  }
+  50% {
+    width: 300px;
+    height: 140px;
+  }
+  100% {
+    width: 400px;
+    height: 300px;
   }
 }
 
@@ -74,7 +104,7 @@ header {
 .title-bio {
   display: flex;
   justify-content: flex-end;
-  color:rgb(19, 85, 88);
+  color: rgb(19, 85, 88);
   font-weight: bold;
   height: 300px;
   width: 15%;
@@ -104,7 +134,7 @@ header {
 
 .work-title {
   display: flex;
-  color:rgb(19, 85, 88);
+  color: rgb(19, 85, 88);
   font-weight: bold;
   justify-content: flex-end;
   height: 670px;
@@ -125,7 +155,7 @@ header {
   height: 300px;
   background-image: url("./images/smart-shop.png");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   float: right;
   border: 6px solid rgb(129, 192, 215);
 }
@@ -143,21 +173,20 @@ header {
   background-color: rgb(129, 192, 215);
 }
 
- .project-section {
+.project-section {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
   margin-bottom: 30px;
- 
-} 
+}
 
 .project {
   display: flex;
   /* flex-direction: row; */
   margin-bottom: 6px;
   min-width: 33rem;
-  margin-top:1rem;
+  margin-top: 1rem;
   height: 150px;
   filter: blur(0.5px);
 }
@@ -165,35 +194,33 @@ header {
   filter: brightness(120%);
 }
 
-.item-1{
+.item-1 {
   display: flex;
-  background-image:url(./images/mern.png);
-  
-  border: 6px solid rgb(129, 192, 215);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(./images/mern.png);
 
-  
-}
-
-.item-2{
-  display: flex;
-  background-image:url(./images/clock.png);
-  border: 6px solid rgb(129, 192, 215);
-}
-.item-3{
-  display: flex;
-  background-image:url(./images/pig-game.png);
   border: 6px solid rgb(129, 192, 215);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.item-4{
+
+.item-2 {
   display: flex;
-  background-image:url(./images/Guess.png);
+  background-image: url(./images/clock.png);
   border: 6px solid rgb(129, 192, 215);
 }
-.item-sub{
+.item-3 {
+  display: flex;
+  background-image: url(./images/pig-game.png);
+  border: 6px solid rgb(129, 192, 215);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.item-4 {
+  display: flex;
+  background-image: url(./images/Guess.png);
+  border: 6px solid rgb(129, 192, 215);
+}
+.item-sub {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -201,49 +228,46 @@ header {
   /* margin-bottom: 20px; */
   padding: 25px 10px 0px 0px;
   height: 15px;
-  background-color:rgb(129, 192, 215);
+  background-color: rgb(129, 192, 215);
 }
 
-.footer{
+.footer {
   display: flex-box;
   position: relative;
   background-image: url("./images/header.jpg");
   height: 140px;
-  margin-top:auto;
+  margin-top: auto;
 }
-.second-section{
+.second-section {
   display: flex;
-  flex-direction:row ;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
-.contact-section{
+.contact-section {
   display: flex;
-
 }
-.contact-me{
+.contact-me {
   display: flex;
-  color:rgb(19, 85, 88);
+  color: rgb(19, 85, 88);
   font-weight: bold;
   justify-content: flex-end;
   height: 80px;
   width: 14%;
   padding-right: 15px;
   margin: 0px 4px 3px 95px;
- 
+
   box-shadow: 6px 0px gray;
 }
 
-
-
-#contact{
-  display:flex;
+#contact {
+  display: flex;
   flex-grow: 1;
   /* background-color: bisque; */
   justify-content: space-evenly;
   font-size: large;
   font-weight: bold;
-  color:rgb(19, 85, 88);
+  color: rgb(19, 85, 88);
   padding-top: 25px;
   text-decoration: underline;
 }
