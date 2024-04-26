@@ -28,6 +28,7 @@ nav {
 
 .nav-h1 {
   display: flex;
+  
   float: left;
   margin-right: auto;
   margin-top: 4px;
@@ -35,20 +36,20 @@ nav {
   height: 35px;
   padding-left: 40px;
   padding-top: 6px;
-  background-color: rgb(7, 168, 168);
+  background-color: rgb(129, 192, 215);
   color: rgb(78, 78, 78);
   font-size: larger;
 }
 
 .nav-link {
   display: flex;
-
   justify-content: flex-end;
-  gap: calc(20px);
+  gap: 20px;
   justify-items: center;
   width: 60%;
   text-decoration: 4px underline;
   text-decoration-color: rgb(7, 168, 168);
+
   .link {
     margin-right: 10px;
     padding-top: 10px;
@@ -80,30 +81,6 @@ header {
   }
 }
 
-.coming-soon {
-  background-color: rgb(159, 218, 227);
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  padding-top: 40px;
-  transition: all 2s ease;
-  animation: soon 3s infinite linear both;
-}
-
-@keyframes soon {
-  0% {
-    width: 200px;
-    height: 120px;
-  }
-  50% {
-    width: 300px;
-    height: 140px;
-  }
-  100% {
-    width: 400px;
-    height: 300px;
-  }
-}
 
 #about-me {
   display: flex;
