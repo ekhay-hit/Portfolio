@@ -28,4 +28,4 @@ Please refer to the LICENSE in the repo.
 * link to the application: https://ekhay-hit.github.io/Portfolio/
 * Screenshots of the application
 ![alt text](image.png)
-![alt text](image-1.png)
+![alt text](image-2.png)
