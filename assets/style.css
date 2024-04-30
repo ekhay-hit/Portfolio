@@ -28,7 +28,7 @@ nav {
 
 .nav-h1 {
   display: flex;
-  
+
   float: left;
   margin-right: auto;
   margin-top: 4px;
@@ -70,17 +70,14 @@ header {
   h3 {
     margin-top: auto;
     background-color: rgb(129, 192, 215);
-   
   }
 
-  img{
+  img {
     height: 100px;
     margin-right: 10px;
     border-radius: 50%;
-    
   }
 }
-
 
 #about-me {
   display: flex;
@@ -240,10 +237,9 @@ header {
   font-weight: bold;
   justify-content: flex-end;
   height: 80px;
-  width: 14%;
+  width: 15%;
   padding-right: 15px;
   margin: 0px 4px 3px 95px;
-
   box-shadow: 6px 0px gray;
 }
 
