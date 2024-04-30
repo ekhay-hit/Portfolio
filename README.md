@@ -2,7 +2,7 @@
 
 ## Description
 
-This Portiflio was creatd by following a specific layout. It was developed using HTML, and CSS only
+This Portiflio was creatd by following a specific layout requirment. It is developed using HTML, and CSS only
 
 ## Installation
 
@@ -23,3 +23,9 @@ N/A
 ## License
 
 Please refer to the LICENSE in the repo.
+
+## Link to the application and screenshots
+* link to the application: https://ekhay-hit.github.io/Portfolio/
+* Screenshots of the application
+![alt text](image.png)
+![alt text](image-1.png)
