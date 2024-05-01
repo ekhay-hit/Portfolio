@@ -1,11 +1,9 @@
+/* The body general css styling */
 body {
   font-size: 20px;
   color: rgb(19, 85, 88);
   font-family: monospace;
   background-color: rgb(209, 232, 224);
-
-  /* background-color: black;
-  color: white; */
 }
 /* reseting the colors to the initail set color */
 a:link,
@@ -13,7 +11,7 @@ a:visited {
   text-decoration: none;
   color: rgb(7, 168, 168);
 }
-
+/* Navidagion css styling */
 nav {
   display: flex;
   justify-content: end;
@@ -26,9 +24,9 @@ nav {
   font-size: bold;
 }
 
+/* header in the navigation  */
 .nav-h1 {
   display: flex;
-
   float: left;
   margin-right: auto;
   margin-top: 4px;
@@ -41,6 +39,7 @@ nav {
   font-size: larger;
 }
 
+/* styling for links in the navigation  */
 .nav-link {
   display: flex;
   justify-content: flex-end;
@@ -55,13 +54,12 @@ nav {
     padding-top: 10px;
   }
 }
-
+/* header css styling  */
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 15px;
-
   padding-top: 0px;
   background-image: url("./images/header.jpg");
   background-repeat: repeat;
@@ -71,7 +69,6 @@ header {
     margin-top: auto;
     background-color: rgb(129, 192, 215);
   }
-
   img {
     height: 100px;
     margin-right: 10px;
@@ -79,12 +76,13 @@ header {
   }
 }
 
+/* about me css styling */
 #about-me {
   display: flex;
   flex-direction: row;
   width: 100%;
-  /* background-color: darkgray; */
 }
+/* about me title styling */
 .title-bio {
   display: flex;
   justify-content: flex-end;
@@ -94,8 +92,8 @@ header {
   width: 15%;
   margin: 50px 3px 3px 100px;
   float: left;
-  /* box-shadow: 6px 0px gray; */
 }
+/* Bio section styling  */
 .bio {
   display: flex;
   flex-direction: row;
@@ -108,7 +106,7 @@ header {
   float: right;
   box-shadow: -6px 0px gray;
 }
-
+/* work section container css styling  */
 .work-section {
   display: flex;
   flex-direction: row;
@@ -116,6 +114,7 @@ header {
   width: 100%;
 }
 
+/* work section title css styling */
 .work-title {
   display: flex;
   color: rgb(19, 85, 88);
@@ -127,15 +126,13 @@ header {
   float: left;
   box-shadow: 6px 0px gray;
 }
-
+/* first project in the work station styling */
 #work {
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
   flex-grow: 1;
   padding-right: 30px;
   margin: 20px 38px 0px 34px;
-  /* min-width: 70%; */
   height: 300px;
   background-image: url("./images/smart-shop.png");
   background-repeat: no-repeat;
@@ -146,6 +143,7 @@ header {
 .work:hover {
   filter: brightness(120%);
 }
+/* title for first project styling */
 .work-sub {
   display: flex;
   flex-direction: column;
@@ -156,7 +154,7 @@ header {
   height: 50px;
   background-color: rgb(129, 192, 215);
 }
-
+/* section for other secondary project */
 .project-section {
   display: flex;
   flex-wrap: wrap;
@@ -164,20 +162,20 @@ header {
   justify-content: space-evenly;
   margin-bottom: 30px;
 }
-
+/* container that hold the 4 project styling */
 .project {
   display: flex;
-  /* flex-direction: row; */
   margin-bottom: 6px;
-  min-width: 33rem;
+  min-width: 44rem;
   margin-top: 1rem;
-  height: 150px;
+  height: 180px;
   filter: blur(0.5px);
 }
 .project:hover {
   filter: brightness(120%);
 }
 
+/* styling for container that hold projects */
 .item-1 {
   display: flex;
   background-image: url(./images/mern.png);
@@ -186,7 +184,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .item-2 {
   display: flex;
   background-image: url(./images/clock.png);
@@ -209,12 +206,12 @@ header {
   flex-direction: column;
   justify-content: flex-end;
   margin-top: auto;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px;
   padding: 25px 10px 0px 0px;
-  height: 15px;
+  height: 40px;
   background-color: rgb(129, 192, 215);
 }
-
+/* footer styling */
 .footer {
   display: flex-box;
   position: relative;
@@ -227,7 +224,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+/* contact section styling */
 .contact-section {
   display: flex;
 }
